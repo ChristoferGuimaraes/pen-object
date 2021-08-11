@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caneta</title>
+    <link rel="stylesheet" href="pencss.css">
+</head>
+
+<body>
+    <header>
+        <h1>CANETA</h1>
+    </header>
+    <main>
+        <h4>Adicionar caneta:</h4>
+        <br>
+        <div>
+            <p>Modelo:
+                <input type="text" id="model" class="pen" placeholder="Modelo">
+            </p>
+            <p>Cor:
+                <input type="text" id="color" class="pen" placeholder="Cor">
+            </p>
+            <p>Ponta:
+
+                <input type="number" id="tip" class="pen" placeholder="De 0.1 a 1.0">
+            </p>
+            <p>Carga:
+                <input type="number" id="charge" class="pen" placeholder="De 0 a 100">
+            </p>
+            <p>
+                <br>
+                <input type="radio" id="cap" name="pen" class="penradio" value='Com tampa' checked> Com tampa
+                <input type="radio" id="capless" name="pen" class="penradio" value='Sem tampa'> Sem tampa
+            </p>
+            <br>
+            <input type="button" value="Enviar" onclick="pen.showData()">
+            <input type="button" value="Limpar" onclick="pen.cleanScreen()">
+        </div>
+        <div id="res">
+
+        </div>
+    </main>
+    <footer>
+        &copy Christofer Guimarães
+    </footer>
+</body>
+<script src="pen.js"></script>
+
+</html>

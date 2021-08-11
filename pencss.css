@@ -1,0 +1,39 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    padding: 18px;
+    color: white;
+}
+
+body {
+    margin: 15px;   
+    background-color:rgb(78, 78, 250);
+}
+
+main {
+    background-color: white;
+    padding: 25px;
+    width: 300px;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.247);
+}
+
+p {
+    margin: 10px 5px;    
+}
+
+footer {
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.pen {
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid black;
+}
